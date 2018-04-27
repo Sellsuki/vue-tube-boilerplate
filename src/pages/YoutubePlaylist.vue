@@ -41,7 +41,5 @@ export default {
 }
 div {
   box-sizing: border-box !important;
-  background-color: #000 !important;
-  color: #fff !important;
 }
 </style>
