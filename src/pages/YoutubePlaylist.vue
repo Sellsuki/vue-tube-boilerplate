@@ -5,10 +5,10 @@
     </div>
     <div class="column is-paddingless">
       <div class="f-left w-100pct h-400px">
-        <Player :video="selected"/>
+        <!-- Component Player -->
       </div>
       <div class="f-left w-100pct h-400calc ovf-auto">
-        <Playlists :playlists="playlists"/>
+        <!-- Component Playlists -->
       </div>
     </div>
   </div>
@@ -16,31 +16,19 @@
 
 <script>
 import Search from '../components/Search'
-import Player from '../components/Player'
-import Playlists from '../components/Playlists'
-
-import { mapGetters } from 'vuex'
 
 export default {
   name: 'YoutubePlaylist',
   data () {
     return {}
   },
-  computed: {
-    ...mapGetters([
-      'selected',
-      'playlists'
-    ])
-  },
   components: {
-    Search,
-    Player,
-    Playlists
+    Search
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute for limit CSS to this component only -->
 <style scoped>
 .bg-cl-282828 {
   background-color: #282828;

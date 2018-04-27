@@ -17,6 +17,12 @@ const config = {
 
 export default config
 ```
+
+## Dependencies
+
+* [vuex](https://github.com/vuejs/vuex)
+* [vue-youtube-embed](https://github.com/kaorun343/vue-youtube-embed)
+
 ## Build Setup
 
 ``` bash
