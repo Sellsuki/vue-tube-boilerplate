@@ -11,12 +11,5 @@
 </template>
 
 <script>
-export default {
-  props: {
-    video: {
-      type: Object,
-      default: () => { return {} }
-    }
-  }
-}
+export default {}
 </script>
