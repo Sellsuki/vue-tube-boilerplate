@@ -12,10 +12,9 @@
 
 <script>
 export default {
-  props: {
-    playlists: {
-      type: Array,
-      default: () => []
+  data () {
+    return {
+      playlists: []
     }
   }
 }
